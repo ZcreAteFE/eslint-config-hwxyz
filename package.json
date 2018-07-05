@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-joeray61",
-  "version": "2.0.1",
-  "description": "JavaScript Style Guide of JoeRay61",
+  "name": "eslint-config-hwxyz",
+  "version": "1.0.4",
+  "description": "JavaScript Style Guide of hwxyz",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
@@ -16,24 +16,26 @@
     "eslint",
     "eslint-config",
     "eslintconfig",
-    "joeray61"
+    "hwxyz"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Joe3Ray/eslint-config-joeray61"
+    "url": "git+https://github.com/fechengxiaocheng/eslint-config-hwxyz.git"
   },
-  "homepage": "https://github.com/Joe3Ray/eslint-config-joeray61",
-  "bugs": "https://github.com/Joe3Ray/eslint-config-joeray61/issues",
-  "author": "JoeRay61 <joeray199261@gmail.com>",
+  "homepage": "https://github.com/fechengxiaocheng/eslint-config-hwxyz",
+  "bugs": {
+    "url": "https://github.com/fechengxiaocheng/eslint-config-hwxyz/issues"
+  },
+  "author": "hwxyz <1316615563@qq.com>",
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^8.2.1",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-plugin-react": "^7.5.1",
-    "standard": "^10.0.3"
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "standard": "^11.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
+    "eslint": "^5.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0"
   }
